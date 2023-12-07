@@ -1,0 +1,76 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 120vh;
+}
+.head1{
+    font-size: large;
+}
+h1{
+    color: blue;
+    font-size: 55px;
+}
+p{
+    font-size: 22px;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+    height: 55vh;
+    width: 50vh;
+    border-radius: 10px;
+    align-items: center;
+    /* padding: 20px; */
+    padding-top: 13vh;
+}
+input{
+    width:70%;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0,0.1);
+}
+.btn{
+    width: 70%;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    background-color: #7CB9E8;
+}
+.btnn{
+    width: 70%;
+    font-size: 17px;
+     padding: 10px; 
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.btnn:hover{
+    background-color: #90EE90;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.line{
+    border: 1px solid rgb(240, 242, 245);
+    display: flex;
+    margin: 15px 16px;
+    text-align: center;
+    align-items: center;
+    width: 320px;
+}
